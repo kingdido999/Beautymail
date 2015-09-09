@@ -286,7 +286,8 @@ strong {
   line-height: 20px;
   color: #5e5b5b;
   margin-top: 0px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  text-align: center; }
 
 .article-content a {
   color: #00A896;
