@@ -286,8 +286,7 @@ strong {
   line-height: 20px;
   color: #5e5b5b;
   margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: center; }
+  margin-bottom: 0px; }
 
 .article-content a {
   color: #00A896;
@@ -359,7 +358,7 @@ strong {
     margin-right: auto; }
 
 .article-content {
-  color: #202020; }
+  color: #555; }
   .article-content h1 {
     text-align: center; }
   .article-content p {
@@ -389,7 +388,7 @@ strong {
 .panel {
   border-collapse: collapse;
   font-size: 14px;
-  color: #202020; }
+  color: #555; }
   .panel thead {
     border-left: 15px solid #ececec;
     border-right: 15px solid #ececec; }
@@ -399,7 +398,7 @@ strong {
     .panel tbody td.vat {
       color: #707070; }
   .panel .divider-line {
-    border-top: 1px solid #202020; }
+    border-top: 1px solid #555; }
   .panel .label-style {
     font-size: 10px;
     text-transform: uppercase;
