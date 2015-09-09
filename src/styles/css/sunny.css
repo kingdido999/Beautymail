@@ -269,7 +269,7 @@ strong {
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0px;
-  background: #f26728;
+  background: #00A896;
   display: block;
   padding: 0px 5px 0px 10px;
   text-transform: uppercase;
@@ -278,7 +278,7 @@ strong {
   height: 22px; }
 
 .article-title a {
-  color: #f26728;
+  color: #00A896;
   text-decoration: none; }
 
 .article-content {
@@ -289,7 +289,7 @@ strong {
   margin-bottom: 0px; }
 
 .article-content a {
-  color: #f26728;
+  color: #00A896;
   font-weight: bold;
   text-decoration: none;
   font-weight: 600; }
@@ -309,7 +309,7 @@ strong {
   color: #444444; }
 
 .article-content li a {
-  color: #f26728;
+  color: #00A896;
   text-decoration: underline; }
 
 .article-content p {
@@ -380,7 +380,7 @@ strong {
   margin-top: 20px;
   margin-bottom: 10px;
   transition: all 0.15s ease-in-out;
-  background: #ff7b3a;
+  background: #00A896;
   color: #fff;
   border: none;
   text-decoration: none; }
