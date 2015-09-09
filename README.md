@@ -2,10 +2,10 @@
 
 Beautymail makes it super easy to send beatiful responsive HTML emails. It's made for things like:
 
-* Welcome emails
-* Password reminders
-* Invoices
-* Data exports
+- Welcome emails
+- Password reminders
+- Invoices
+- Data exports
 
 If you're on Laravel 4, use the `1.x` branch.
 
