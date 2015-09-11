@@ -52,12 +52,6 @@
 									</td>
 									<td class="w30" width="30"></td>
 								</tr>
-								<tr>
-									<td colspan="3" height="20" class="large_only"></td>
-								</tr>
-								<tr>
-									<td colspan="3" height="20" class="large_only"></td>
-								</tr>
 							</table>
 						</td>
 					</tr>
@@ -84,10 +78,9 @@
 						<td>
 							<table width="640" class="w640" align="center" cellpadding="0" cellspacing="0">
 								<tr>
-									<td class="w50" width="50"></td>
 									<td class="w410" width="410">
-										@if (isset($reminder))
-											<p id="permission-reminder" class="footer-content-left" align="left">{!! $reminder !!}</p>
+										@if (isset($senderName))
+											<p id="sender-name" class="footer-content-left" align="left">{!! $reminder !!}</p>
 										@endif
 									</td>
 									<td valign="top">
@@ -97,11 +90,11 @@
 											</tr>
 											<tr>
 												@if (isset($twitter))
-													<td><a href="http://twitter.com/{{ $twitter }}"><img src="{{ Request::getSchemeAndHttpHost() }}/vendor/beautymail/assets/images/ark/twitter.png" alt="Twitter" height="25" width="25" style="border:0" /></a></td>
+													<td><a href="http://twitter.com/{{ $twitter }}"><img src="{{ Request::getSchemeAndHttpHost() }}/vendor/beautymail/assets/images/widgets/twitter.gif" alt="Twitter" style="border:0" /></a></td>
 												@endif
 
 												@if (isset($facebook))
-													<td><a href="http://facebook.com/{{ $facebook }}"><img src="{{ Request::getSchemeAndHttpHost() }}/vendor/beautymail/assets/images/ark/fb.png" alt="Facebook" height="25" width="25" style="border:0" /></a></td>
+													<td><a href="http://facebook.com/{{ $facebook }}"><img src="{{ Request::getSchemeAndHttpHost() }}/vendor/beautymail/assets/images/widgets/facebook.gif" alt="Facebook" style="border:0" /></a></td>
 												@endif
 											</tr>
 										</table>

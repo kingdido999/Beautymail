@@ -343,6 +343,10 @@ strong {
   text-decoration: none;
   font-weight: bold; }
 
+#sender-name {
+    white-space: pre-wrap;
+    font-weight: 400; }
+
 #permission-reminder {
   white-space: pre-wrap;
   font-weight: 400; }
@@ -352,10 +356,11 @@ strong {
   white-space: pre-wrap; }
 
 #header {
-  background-color: #f4f4f2; }
+  background-color: #eee; }
   #header #logo img {
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding: 15px; }
 
 .article-content {
   color: #555; }
