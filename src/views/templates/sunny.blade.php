@@ -80,7 +80,7 @@
 								<tr>
 									<td class="w410" width="410">
 										@if (isset($senderName))
-											<p id="sender-name" class="footer-content-left" align="left">{!! $reminder !!}</p>
+											<p id="sender-name" class="footer-content-left" align="left">{!! $senderName !!}</p>
 										@endif
 									</td>
 									<td valign="top">
